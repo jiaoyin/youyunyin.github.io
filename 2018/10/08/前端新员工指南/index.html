@@ -509,7 +509,7 @@
             repo: 'youyunyin.github.io',
             owner: 'youyunyin',
             admin: ['youyunyin'],
-            id: location.pathname,
+            id: (location.pathname).split("/").pop().substring(0, 49),
             distractionFreeMode: true
         })
         gitalk.render('comments')
