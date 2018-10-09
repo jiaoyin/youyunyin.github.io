@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://youyunyin.com/about/index.html</loc>
+    
+    <lastmod>2018-10-09T07:12:08.368Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://youyunyin.com/nav/index.html</loc>
     
     <lastmod>2018-10-09T06:35:38.646Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://youyunyin.com/categories/index.html</loc>
     
     <lastmod>2018-10-08T06:43:00.254Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://youyunyin.com/about/index.html</loc>
-    
-    <lastmod>2018-10-08T06:42:07.811Z</lastmod>
     
   </url>
   
