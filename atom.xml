@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://youyunyin.com/"/>
-  <updated>2018-10-16T06:03:35.645Z</updated>
+  <updated>2018-10-16T06:09:13.573Z</updated>
   <id>http://youyunyin.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://youyunyin.com/2018/10/09/fed/vue-cli/"/>
     <id>http://youyunyin.com/2018/10/09/fed/vue-cli/</id>
     <published>2018-10-09T02:26:47.475Z</published>
-    <updated>2018-10-16T06:03:35.645Z</updated>
+    <updated>2018-10-16T06:09:13.573Z</updated>
     
     <content type="html"><![CDATA[<h2 id="vue环境搭建"><a href="#vue环境搭建" class="headerlink" title="vue环境搭建"></a>vue环境搭建</h2>]]></content>
     
@@ -37,7 +37,9 @@
       <category term="vue" scheme="http://youyunyin.com/categories/vue/"/>
     
     
-      <category term="前端 vue" scheme="http://youyunyin.com/tags/%E5%89%8D%E7%AB%AF-vue/"/>
+      <category term="前端" scheme="http://youyunyin.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="vue" scheme="http://youyunyin.com/tags/vue/"/>
     
   </entry>
   
