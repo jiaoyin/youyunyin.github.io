@@ -26,10 +26,12 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="本文参考 Github markdown 基本写法，更多详细描述可直接前往Github查看   标题文字前使用(1-6个)#，不同数量代表文字不一样大小 标题1标题2标题3标题4标题5标题6123456# 标题1## 标题2### 标题3#### 标题4##### 标题5###### 标题6 文本样式   样式 语法 快捷键 示例 效果     粗体 ** **或__ __ command/con">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-17T06:56:20.755Z">
+<meta property="og:image" content="http://youyunyin.com/images/logo/youyunyin-logo.png">
+<meta property="og:updated_time" content="2018-10-17T07:48:41.853Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="markdown常用语法">
 <meta name="twitter:description" content="本文参考 Github markdown 基本写法，更多详细描述可直接前往Github查看   标题文字前使用(1-6个)#，不同数量代表文字不一样大小 标题1标题2标题3标题4标题5标题6123456# 标题1## 标题2### 标题3#### 标题4##### 标题5###### 标题6 文本样式   样式 语法 快捷键 示例 效果     粗体 ** **或__ __ command/con">
+<meta name="twitter:image" content="http://youyunyin.com/images/logo/youyunyin-logo.png">
   <!-- Canonical links -->
   <link rel="canonical" href="http://youyunyin.com/2018/10/01/markdown/index.html">
   
@@ -425,7 +427,7 @@
 </table>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[友云音logo](/images/logo/youyunyin-logo.png)</span><br></pre></td></tr></table></figure>
 <p><a href="/images/logo/youyunyin-logo.png">友云音logo</a></p>
-<h1 id="部分链接"><a href="#部分链接" class="headerlink" title="部分链接"></a>部分链接</h1><p>当我们写好md发布渲染生成html之后，当鼠标移动到某一块的头部的时候会显示#（也有可能是其他图表），点击之后地址栏会生成一个部分连接。使用该地址栏的地址访问该文章会自动定位到点击的这个块。<br>比如本文的地址是：<a href="http://youyunyin.com/2018/10/01/markdown/">http://youyunyin.com/2018/10/01/markdown/</a><br>点击[文本样式]这个标题，地址栏url变为<br><a href="http://youyunyin.com/2018/10/01/markdown/#%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F">http://youyunyin.com/2018/10/01/markdown/#%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F</a><br>点击改链接就会直接进入该页面并跳转到[文本样式]块中</p>
+<h1 id="部分链接"><a href="#部分链接" class="headerlink" title="部分链接"></a>部分链接</h1><p>当我们写好md发布渲染生成html之后，当鼠标移动到某一块的头部的时候会显示#（也有可能是其他图表），点击之后地址栏会生成一个部分连接。使用该地址栏的地址访问该文章会自动定位到点击的这个块。<br>比如本文的地址是:<br><a href="http://youyunyin.com/2018/10/01/markdown/">http://youyunyin.com/2018/10/01/markdown/</a><br>点击[文本样式]这个标题，地址栏url变为<br><a href="http://youyunyin.com/2018/10/01/markdown/#文本样式">http://youyunyin.com/2018/10/01/markdown/#文本样式</a><br>点击改链接就会直接进入该页面并跳转到[文本样式]块中</p>
 <h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>使用 - 或者 *</p>
 <ul>
 <li>第1行</li>
@@ -454,7 +456,13 @@
 <li style="list-style: none"><input type="checkbox"> 任务3</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] 任务1</span><br><span class="line">- [ ] 任务2</span><br><span class="line">- [ ] 任务3</span><br></pre></td></tr></table></figure>
-<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>文字后面输入两个空格换行<br>@github/wangzhikui What do you think about these updates?</p>
+<h1 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h1><p>文字后面输入两个空格换行</p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><img src="/images/logo/youyunyin-logo.png" alt="友云音logo" title="友云音logo"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![友云音logo](/images/logo/youyunyin-logo.png &quot;友云音logo&quot;)</span><br></pre></td></tr></table></figure></p>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><p>使用 三个以上 - 或 *<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">----</span><br><span class="line">***</span><br><span class="line">****</span><br></pre></td></tr></table></figure></p>
+<hr>
+<hr>
+<hr>
+<hr>
 
       
     </div>
